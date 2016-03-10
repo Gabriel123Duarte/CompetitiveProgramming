@@ -1,0 +1,3 @@
+# Paradigms
+
+## List of Algorithms
