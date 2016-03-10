@@ -2,7 +2,7 @@
 
 ## Goal
 Here I want to post all standard code that I used to solve problems in Online Judges and Competitions.  
-All codes will be in C++11.
+All codes will be in C++11. (Maybe some codes will be in Java)
 
 ## Organization
 I chose divide the algorithms in 6 big groups.
