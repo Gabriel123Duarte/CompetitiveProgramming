@@ -1,7 +1,7 @@
 # Competitive Programming Algorithms in C++
 
 ## Goal
-Here I want to post all standard code that I used to solve problems in Online Judges and Competitions.
+Here I want to post all standard code that I used to solve problems in Online Judges and Competitions.  
 All codes will be in C++11.
 
 ## Organization
@@ -16,9 +16,8 @@ I chose divide the algorithms in 6 big groups.
 ## How to use
 Download the code that you want and compile it using this:
 
-'''
 g++ codeName.cpp -o code -std=c++11
-'''
+
 
 ## Contributors
 Gabriel Duarte
