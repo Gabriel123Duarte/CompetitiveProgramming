@@ -2,7 +2,7 @@
 	Dijkstra
 	Author: Gabriel Duarte
 
-	Description: SSSP in a Graph withoud negative cycle
+	Description: SSSP in a Graph without negative cycle
 	Complexity: O((V + E)log E)
 
 */
