@@ -1,5 +1,5 @@
 /*
-	Dijkstra
+	Bellman Ford
 	Author: Gabriel Duarte
 
 	Description: SSSP in a Graph with negative cycle
@@ -18,7 +18,7 @@ typedef vector<ii> vii;
 vector<vii> graph;
 int V, E; // Vertex and edges
 
-void Bellman(int s)
+void bellmanFord(int s)
 {
 	vector<int> dist(V, INF);
 
@@ -46,6 +46,6 @@ int main()
 	graph[1].push_back(ii(0, -51));
 	graph[2].push_back(ii(4, -5));
 
-	Bellman(0);
+	bellmanFord(0);
 	return 0;
 }
