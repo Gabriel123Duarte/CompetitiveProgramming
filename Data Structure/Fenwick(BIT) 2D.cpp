@@ -44,7 +44,7 @@ class Fenwick
 		int query(int x1, int y1, int x2, int y2) // [(x1, y1) ... (x2, y2)]
 		{
 			return query(x2, y2) + query(x1 - 1, y1 - 1) -
-				   query(x1, y1 - 1) - query(x1 - 1, y1);
+				   query(x2, y1 - 1) - query(x1 - 1, y2);
 		}
 };
 
